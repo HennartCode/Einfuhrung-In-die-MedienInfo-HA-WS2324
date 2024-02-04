@@ -90,7 +90,13 @@ table td {
 
 
 
-section h2{
-    border-bottom: 3px solid #d2d2d2;
+section h2 {
+    background-color: #00ff00;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
 }
 
+section h2:hover {
+    background-color: #006600;
+    color: #ffffff; /* Optional: Change text color when hovering */
+}
